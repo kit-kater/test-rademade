@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('opensans/opensans-bold-webfont.eot');
+    src: url('opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('opensans/opensans-bold-webfont.woff2') format('woff2'),
+        url('opensans/opensans-bold-webfont.woff') format('woff'),
+        url('opensans/opensans-bold-webfont.ttf') format('truetype'),
+        url('opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans/opensans-regular-webfont.eot');
+    src: url('opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('opensans/opensans-regular-webfont.woff2') format('woff2'),
+        url('opensans/opensans-regular-webfont.woff') format('woff'),
+        url('opensans/opensans-regular-webfont.ttf') format('truetype'),
+        url('opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('opensans/opensans-semibold-webfont.eot');
+    src: url('opensans/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('opensans/opensans-semibold-webfont.woff2') format('woff2'),
+        url('opensans/opensans-semibold-webfont.woff') format('woff'),
+        url('opensans/opensans-semibold-webfont.ttf') format('truetype'),
+        url('opensans/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('opensans/opensans-light-webfont.eot');
+    src: url('opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('opensans/opensans-light-webfont.woff2') format('woff2'),
+        url('opensans/opensans-light-webfont.woff') format('woff'),
+        url('opensans/opensans-light-webfont.ttf') format('truetype'),
+        url('opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('proxima-nova/ProximaNova-Light.eot');
+    src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+        url('proxima-nova/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+        url('proxima-nova/ProximaNova-Light.woff') format('woff'),
+        url('proxima-nova/ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('proxima-nova/ProximaNova-Black.eot');
+    src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+        url('proxima-nova/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+        url('proxima-nova/ProximaNova-Black.woff') format('woff'),
+        url('proxima-nova/ProximaNova-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('proxima-nova/ProximaNova-Regular.eot');
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+        url('proxima-nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('proxima-nova/ProximaNova-Regular.woff') format('woff'),
+        url('proxima-nova/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('proxima-nova/ProximaNova-Semibold.eot');
+    src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+        url('proxima-nova/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('proxima-nova/ProximaNova-Semibold.woff') format('woff'),
+        url('proxima-nova/ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

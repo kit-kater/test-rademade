@@ -1,7 +1,103 @@
 doctype html
-html
+html(lang="en")
   head
-    style
+    meta(charset='utf-8')
+    link(rel="stylesheet" href="css/normalize.css")
+    link(rel="stylesheet" href="fonts/fonts.css")
+    link(rel="stylesheet" href="css/main.css")
+    title Test Task
 
   body
-    h1 My Site
+    .header
+      .header__container
+        .header__left
+          .header__logo
+            img(src="img/logo_ico.svg" alt="Logo")
+          .header__menu
+            ul
+              each val in ['Notifications', 'Unselected tab', 'Unselected tab', 'Unselected tab']
+                li
+                  a(href="")= val
+        .header__right
+            .notification.active
+                img(src="img/bell.svg" alt="Notification" class="notification_active")
+            .user
+                img(src="img/avatar.svg" alt="Avatar")
+    section.content
+        .content__header
+            .content__title Notifications
+            .content__filter View:
+                span.choosen All types
+                .filter__list
+                    .filter__item All types
+                    .filter__item Type 1
+                    .filter__item Type 2                
+        .content__tabs
+            .content__tab All Categories
+            .content__tab Category 1
+            .content__tab.active Category 2
+            .content__tab Category 3
+
+        .content__items
+            .content__item.current-type
+                .item__head
+                    .item__type Type 1
+                    .item__date Today, 10:42 AM
+                a(href="" class="item__title") Primary notification content (clickable)
+                .item__text Secondary notification content; requirements: might include various info in few lines that can be highlighted inline
+                .item__features 
+                    img(src="img/menu.svg" alt="Menu")
+                    .features__list
+                        .features__item Menu item 1
+                        .features__item Menu item 2
+                        .features__item Menu item 3
+            .content__item.current-type
+                .item__head
+                    .item__type Type 1
+                    .item__date Today, 10:42 AM
+                a(href="" class="item__title") Primary notification content (clickable)
+                .item__text Secondary notification content; requirements: might include various info in few lines that can be highlighted inline
+                .item__features 
+                    img(src="img/menu.svg" alt="Menu")
+                    .features__list
+                        .features__item Menu item 1
+                        .features__item Menu item 2
+                        .features__item Menu item 3
+            .content__item
+                .item__head
+                    .item__type Type 2
+                    .item__date Today, 10:42 AM
+                a(href="" class="item__title") Primary notification content (clickable)
+                .item__text Secondary notification content; requirements: might include various info in few lines that can be highlighted inline
+                .item__features 
+                    img(src="img/menu.svg" alt="Menu")
+                    .features__list
+                        .features__item Menu item 1
+                        .features__item Menu item 2
+                        .features__item Menu item 3
+            .content__item
+                .item__head
+                    .item__type Type 2
+                    .item__date Today, 10:42 AM
+                a(href="" class="item__title") Primary notification content (clickable)
+                .item__text Secondary notification content; requirements: might include various info in few lines that can be highlighted inline
+                .item__features 
+                    img(src="img/menu.svg" alt="Menu")
+                    .features__list
+                        .features__item Menu item 1
+                        .features__item Menu item 2
+                        .features__item Menu item 3
+            .content__item
+                .item__head
+                    .item__type Type 2
+                    .item__date Today, 10:42 AM
+                a(href="" class="item__title") Primary notification content (clickable)
+                .item__text Secondary notification content; requirements: might include various info in few lines that can be highlighted inline
+                .item__features 
+                    img(src="img/menu.svg" alt="Menu")
+                    .features__list
+                        .features__item Menu item 1
+                        .features__item Menu item 2
+                        .features__item Menu item 3
+  script(src='/js/jquery-3.4.1.min.js')
+  script(src='/js/main.js')
